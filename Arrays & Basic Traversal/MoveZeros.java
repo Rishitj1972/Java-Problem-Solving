@@ -7,7 +7,7 @@ class MoveZeros {
 
         for(int right = 0;right<arr.length;right++) {
             if(arr[right] != 0) {
-                int t = 0;
+                int t;
                 t = arr[left];
                 arr[left] = arr[right];
                 arr[right] = t;
