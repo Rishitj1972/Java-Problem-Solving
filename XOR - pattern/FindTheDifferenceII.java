@@ -4,7 +4,7 @@ class FindTheDifferenceII {
         String s = "abcd";
         String t = "acbde";
 
-        char ch = 0;
+        char ch = 0;  // ans = 0 because zero is the starting value that allows XOR to work correctly.
 
         for(int i=0;i<s.length();i++) {
             ch ^= s.charAt(i);
