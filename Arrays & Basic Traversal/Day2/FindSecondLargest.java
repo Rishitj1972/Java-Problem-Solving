@@ -10,7 +10,7 @@ class FindSecondLargest {
             if(arr[i] > maxValue) {
                 secondLargest = maxValue;
                 maxValue = arr[i];
-            } else if(arr[i] > secondLargest) {
+            } else if(arr[i] > secondLargest && arr[i] < maxValue) {
                 secondLargest = arr[i];
             }
         }
