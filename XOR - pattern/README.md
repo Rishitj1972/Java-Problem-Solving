@@ -1,0 +1,1 @@
+The XOR (^) pattern is useful in DSA problems involving duplicate values, missing numbers, and finding unique elements. The key is recognizing when matching values can cancel each other.
